@@ -140,10 +140,3 @@ export const userBalanceRouter = router.get(
     }
   }
 );
-
-// User Portfolio Router
-
-export const userPortfolioRouter = router.get("/portfolio", (req, res) => {
-  res.send({ status: 200, message: "portfolio route" });
-  console.log("User Portfolio Retrieved Successfully!");
-});

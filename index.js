@@ -48,7 +48,6 @@ app.use("api/v1", userSignUpRouter);
 app.use("/api/v1", userLoginRouter);
 app.use("/api/v1", userInfoRouter);
 app.use("/api/v1", userBalanceRouter);
-app.use("/api/v1", userPortfolioRouter);
 
 // Trade Routes
 
